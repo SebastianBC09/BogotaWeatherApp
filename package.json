@@ -1,0 +1,22 @@
+{
+  "name": "bogotaweather",
+  "version": "1.0.0",
+  "description": "This is my 2nd web app with Node & express. This time I'm using APIs for the first time in order to get some weather data.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianBC09/BogotaWeatherApp.git"
+  },
+  "author": "Sebastian Ballen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianBC09/BogotaWeatherApp/issues"
+  },
+  "homepage": "https://github.com/SebastianBC09/BogotaWeatherApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
