@@ -4,7 +4,7 @@ const https = require('https')
 const port = 3000
 const app = express()
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Bogotá&units=metric&"
-/* API ID deleted for security reasons */
+/* API ID deleted for security reasons. But get request is working great & nice. Have to check how to protect the ID token.*/
 
 app.get("/", function(req, res) {
   https.get(`${url}`, function(response){
